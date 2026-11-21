@@ -40,7 +40,7 @@ QUIET = True     # True: do not fire at enemies farther than QUIET_RANGE unless 
 QUIET_RANGE = 70.0
 HIDE = True           # True: wait at a spot inside the next circle that buildings screen from most directions (needs nav.py)
 HIDE_STEP = 12.0      # candidate spots every 12 m
-HIDE_MAX_FRAC = 0.5   # only spots within 70% of the next circle's radius (zone safety margin)
+HIDE_MAX_FRAC = 0.9   # only spots within 70% of the next circle's radius (zone safety margin)
 HIDE_REACH = 64.0     # how far we look for a screening building, per direction
 HIDE_DIST_PENALTY = 0.02    # per metre of walking route: prefer spots close to where we are (less time in the open)
 # ===========================================================================================
