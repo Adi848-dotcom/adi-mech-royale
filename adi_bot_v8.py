@@ -36,7 +36,7 @@ except Exception:                      # nav.py missing or broken: play without 
 
 # ===================== EXPERIMENT SWITCHES (change ONE per submission) =====================
 LASER_FIRST = False   # True: when picking up loot prefer the laser (hitscan, 280 m range) over lightning/mortar
-QUIET = False         # True: do not fire at enemies farther than QUIET_RANGE unless we were just hit (gunfire is heard 320 m away)
+QUIET = True     # True: do not fire at enemies farther than QUIET_RANGE unless we were just hit (gunfire is heard 320 m away)
 QUIET_RANGE = 70.0
 HIDE = True           # True: wait at a spot inside the next circle that buildings screen from most directions (needs nav.py)
 HIDE_STEP = 12.0      # candidate spots every 12 m
